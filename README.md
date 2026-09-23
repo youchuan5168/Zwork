@@ -1,5 +1,7 @@
 # Zwork
 
+![Zwork 首页](assets/zwork-home.png)
+
 Zwork 是个人求职工作台，用于管理投递进度、面试安排、简历和岗位资料。前端支持电脑与手机浏览器，业务数据保存在 MySQL 中。
 
 ## 主要功能
