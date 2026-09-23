@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# 前端
+node_modules/
+dist/
+.pnpm-store/
+
+# 配置与数据（含数据库密码，不要提交）
+.env
+.env.*
+!.env.example
+*.db
+backups/
+docs/
+CAREER_AGENT_ROADMAP.md
+backend/tests/
+
+# 其他
+*.log
+.pytest_cache/
+.pytest-tmp-*/
+.ruff_cache/
+.coverage
+htmlcov/
+.DS_Store
+
+# 删除前的临时备份（勿提交）
+_trash/

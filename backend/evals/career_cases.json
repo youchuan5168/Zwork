@@ -1,0 +1,6 @@
+[
+  {"skill": "daily_briefing", "tool": "get_daily_briefing", "args": {"day": "2026-09-19"}, "source": "application_count"},
+  {"skill": "weekly_review", "tool": "get_weekly_review", "args": {"start": "2026-09-14"}, "source": "applications"},
+  {"skill": "interview_preparation", "tool": "get_interview_context", "args": {"schedule_id": 1}, "source": "schedule"},
+  {"skill": "application_follow_up", "tool": "get_followup_context", "args": {"application_id": 1}, "source": "application"}
+]
