@@ -101,18 +101,3 @@ python -m ruff check app migrations
 ```
 
 前端构建在 `frontend` 目录运行：`npm run build`。开发环境启动后，可访问 [API 文档](http://localhost:8000/docs)。
-
-## 提交到 GitHub
-
-当前目录首次提交时，先在 GitHub 创建一个**空仓库**（不要勾选自动生成 README、`.gitignore` 或许可证），然后在项目根目录执行：
-
-```powershell
-git init -b main
-git add .
-git status --short
-git commit -m "Initial commit"
-git remote add origin https://github.com/你的用户名/你的仓库名.git
-git push -u origin main
-```
-
-推送前核对 `git status --short`：`backend/.env`、`backups/`、`node_modules/`、`backend/.venv/` 和 `frontend/dist/` 都不应出现在待提交列表中。GitHub 认证按提示使用浏览器登录或凭据管理器，不要将令牌写进仓库。之后更新代码时，在根目录执行 `git add .`、`git commit -m "描述本次修改"`、`git push`。
