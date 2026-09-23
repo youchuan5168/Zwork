@@ -77,7 +77,7 @@ Zwork/
    python start.py
    ```
 
-   浏览器访问 [http://localhost:8000](http://localhost:8000)。首次运行可注册第一个账号；之后默认关闭注册。按 `Ctrl+C` 停止服务。
+   浏览器访问 [http://localhost:8000](http://localhost:8000)。首次运行可注册第一个账号；之后默认关闭注册。若要继续创建账号，可在本机 `backend/.env` 中设置 `REGISTRATION_OPEN=true`，重启后端并刷新登录页。注册完成后可改回 `false` 并再次重启。按 `Ctrl+C` 停止服务。
 
 开发前端时，可在两个终端分别运行 `cd backend; python -m uvicorn app.main:app --reload --port 8000` 和 `cd frontend; npm run dev`，然后访问 [http://localhost:5173](http://localhost:5173)。
 
