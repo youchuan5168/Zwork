@@ -101,3 +101,7 @@ python -m ruff check app migrations
 ```
 
 前端构建在 `frontend` 目录运行：`npm run build`。开发环境启动后，可访问 [API 文档](http://localhost:8000/docs)。
+
+## 关于 Zwork
+
+希望 Zwork 能帮助大家更好地整理求职信息、跟进投递进度和准备面试。Zwork 助手目前仍在开发中，部分功能还不完善，后续会持续改进。欢迎通过 [GitHub Issues](https://github.com/youchuan5168/Zwork/issues) 提出问题和建议。
